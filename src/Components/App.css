@@ -1,0 +1,22 @@
+.style{
+    color:hsla(198, 100%, 74%, 0.78);
+    text-shadow: 0 0 15px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    text-align:center;
+    margin:0 12% 10% 12%;
+    animation: text 6s infinite
+
+}
+@keyframes text {
+  0%{transform:scale(0);
+      opacity:(0);}
+  5% {transform:scale(1)}
+  80% {transform:scale(1)}
+  85%  {transform:scale(1.2);
+        opacity:1;}
+  90%  {opacity:0;}
+  100% {opacity:0;}
+}
+Canvas{
+  position:relative;
+  left:32%;
+}
